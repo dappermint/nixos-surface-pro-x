@@ -1,0 +1,79 @@
+{
+  "nodes": {
+    "kernel-configs": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793571153,
+        "narHash": "sha256-cksap1gZ0431gRH/R/GS7pWBYM46jVGGbFWCcSpZHoo=",
+        "owner": "qzed",
+        "repo": "aarch64-kernel-configs",
+        "rev": "b2fd1c774a27413616b01491ce28aaf1e06cbd0a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "qzed",
+        "repo": "aarch64-kernel-configs",
+        "type": "github"
+      }
+    },
+    "linux-surface": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1793550154,
+        "narHash": "sha256-Cs72LFoH46wxtA4s9D73gXPlU4mmIxbcgekeT22/c98=",
+        "owner": "linux-surface",
+        "repo": "kernel",
+        "rev": "26e6eb9531805dfbfb94587cd4d3cc7b241bb048",
+        "type": "github"
+      },
+      "original": {
+        "owner": "linux-surface",
+        "ref": "spx/v7.3",
+        "repo": "kernel",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1794042290,
+        "narHash": "sha256-ziZn2PvCJE5JEEpqTdxXwJpPB+L3YqoCpTAMCzyaP3U=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "f4a03c008967841f2a0b3cb7c436fc6fc31671f6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kernel-configs": "kernel-configs",
+        "linux-surface": "linux-surface",
+        "nixpkgs": "nixpkgs",
+        "spx-firmware": "spx-firmware"
+      }
+    },
+    "spx-firmware": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1658703773,
+        "narHash": "sha256-Lyav0RtoowocrhC7Q2Y72ogHhgFuFli+c/us/Mu/Ugc=",
+        "owner": "linux-surface",
+        "repo": "aarch64-firmware",
+        "rev": "9f07579ee64aba56419cfd0fbbca9f26741edc90",
+        "type": "github"
+      },
+      "original": {
+        "owner": "linux-surface",
+        "repo": "aarch64-firmware",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
